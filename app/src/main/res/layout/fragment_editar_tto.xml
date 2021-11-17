@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navigation_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".fragments.SettingsFragment">
+
+        <TextView
+            android:id="@+id/tto_edit_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Editar Tratamiento"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+            app:layout_constraintTop_toBottomOf="@+id/tto_edit_title"
+            tools:layout_editor_absoluteX="20dp">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stock:" />
+
+            <EditText
+                android:id="@+id/et_stock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:hint="Nuevo stock"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p_frecuencia"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout12"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+            tools:layout_editor_absoluteX="20dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Frecuencia" />
+
+            <EditText
+                android:id="@+id/et_frecuencia"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:hint="Nueva Frecuencia"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p_frecuencia"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout13"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+            tools:layout_editor_absoluteX="20dp">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dias recompra" />
+
+            <EditText
+                android:id="@+id/et_diasRecompra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:hint="Nueva cant. dias"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p_diasReceta"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/btn_actualizar_tto"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+            tools:layout_editor_absoluteX="20dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dias receta" />
+
+            <EditText
+                android:id="@+id/et_diasReceta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:hint="Nueva cant. dias"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p_diasReceta"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_actualizar_tto"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/button_bg"
+            android:text="Guardar"
+            app:layout_constraintBottom_toTopOf="@+id/btn_cancelar_actualizar_tto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout13" />
+
+        <Button
+            android:id="@+id/btn_cancelar_actualizar_tto"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/button_bg"
+            android:text="Cancelar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_actualizar_tto"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

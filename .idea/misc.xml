@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Dev-Nav/pastillero-android/app/src/main/res/layout/form_fragment.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/activity_bottom_nav.xml" value="0.20572916666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/form_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_blank.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_bottom_bar.xml" value="0.22" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_dashboard.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_notifications.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_profile.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/fragment_settings.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/home_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/item_tratamiento.xml" value="0.2" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/login_tab_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/profile_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/settings_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/signup_tab_fragment.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/layout/tto_detail_fragment.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Experimental/pastillero-android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19010416666666666" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Master/pastillero-android/app/src/main/res/layout/activity_main.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Master/pastillero-android/app/src/main/res/layout/form_fragment.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Master/pastillero-android/app/src/main/res/layout/fragment_confirmar_borrar_tto.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Master/pastillero-android/app/src/main/res/layout/fragment_editar_tto.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Master/pastillero-android/app/src/main/res/layout/fragment_settings.xml" value="0.34375" />
+        <entry key="..\:/ORT/Segundo/Segundo Cuatrimestre/PRF/Master/pastillero-android/app/src/main/res/layout/tto_detail_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/activity_main.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/form_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/fragment_home.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/fragment_profile.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/fragment_settings.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/item_tratamiento.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/login_tab_fragment.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/layout/signup_tab_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/Proyecto-master/pastillero-android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1921875" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/button_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/edit_text_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/ic_home_foreground.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1046875" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/ic_options_foreground.xml" value="0.1421875" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/drawable/vie_bg.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/activity_profile.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/activity_register_user.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/activity_settings.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/form_fragment.xml" value="0.14402173913043478" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/fragment_blank.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/home_fragment.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/login_tab_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/profile_fragment.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/settings_fragment.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/layout/signup_tab_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/ORT/ProyectoFInal/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1921875" />
+        <entry key="..\:/Users/epbel/Desktop/Nueva carpeta (2)/pastillero-android/app/src/main/res/layout/fragment_editar_tto.xml" value="0.33" />
+        <entry key="..\:/Users/epbel/Desktop/Nueva carpeta (2)/pastillero-android/app/src/main/res/layout/fragment_settings.xml" value="0.34375" />
+        <entry key="..\:/Users/epbel/Desktop/Nueva carpeta/pastillero-android/app/src/main/res/layout/fragment_confirmar_borrar_tto.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/epbel/Desktop/Nueva carpeta/pastillero-android/app/src/main/res/layout/fragment_editar_tto.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/epbel/Desktop/Nueva carpeta/pastillero-android/app/src/main/res/layout/fragment_recompra.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/form_fragment.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/fragment_confirmar_borrar_tto.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/fragment_editar_tto.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/fragment_recompra.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/item_tratamiento.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/login_tab_fragment.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/signup_tab_fragment.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/tto_detail_fragment.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

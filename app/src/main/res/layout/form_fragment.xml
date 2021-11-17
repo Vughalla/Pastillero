@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Agregar Nuevo Tratamiento"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.052" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Informacion general"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.282"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="9dp"
+            android:text="Nombre comecial del medicamento"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerMedicamentos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.377"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Spinner
+            android:id="@+id/spinnerMedicamentos"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Frecuencia Horaria"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerFrecuencia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.242"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerMedicamentos"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Spinner
+            android:id="@+id/spinnerFrecuencia"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="148dp"
+            android:background="@drawable/edit_text_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Fecha y hora de proxima toma"
+            app:layout_constraintBottom_toTopOf="@+id/btnProximaToma"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerMedicamentos"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btnProximaToma"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="#D1D0D0"
+            android:text="Selecciona fecha y hora"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerFrecuencia"
+            app:rippleColor="#CAC9C9" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnProximaToma"
+            app:layout_constraintVertical_bias="0.727" />
+
+        <EditText
+            android:id="@+id/editNuevasRecetas"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="  Dias para notificar nueva receta"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/editRecompra"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="  Dias para notificar recompra"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editNuevasRecetas" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Recordatorios"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnProximaToma" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Solicitud de nueva receta"
+            app:layout_constraintBottom_toTopOf="@+id/editNuevasRecetas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.275"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Solicitud de recompra"
+            app:layout_constraintBottom_toTopOf="@+id/editRecompra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.255"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editNuevasRecetas"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btn_confirmar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/button_bg"
+            android:text="Confirmar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editRecompra" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.pastillero.fragments.HomeFragment"
+        android:label="Mis tratamientos"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_formFragment"
+            app:destination="@id/formFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_ttoDetailFragment"
+            app:destination="@id/ttoDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.pastillero.fragments.SettingsFragment"
+        android:label="Configuracion"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.pastillero.fragments.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.pastillero.fragments.FormFragment"
+        android:label="Nuevo Tratamiento"/>
+    <fragment
+        android:id="@+id/ttoDetailFragment"
+        android:name="com.example.pastillero.fragments.TtoDetailFragment"
+        android:label="Detalle tratamiento">
+        <action
+            android:id="@+id/action_ttoDetailFragment_to_editarTto"
+            app:destination="@id/editarTto" />
+        <action
+            android:id="@+id/action_ttoDetailFragment_to_confirmarBorrarTto"
+            app:destination="@id/confirmarBorrarTto" />
+        <action
+            android:id="@+id/action_ttoDetailFragment_to_recompraFragment"
+            app:destination="@id/recompraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarTto"
+        android:name="com.example.pastillero.fragments.EditarTto"
+        android:label="Editar Tratamiento"
+        tools:layout="@layout/fragment_editar_tto" />
+    <fragment
+        android:id="@+id/confirmarBorrarTto"
+        android:name="com.example.pastillero.fragments.ConfirmarBorrarTto"
+        android:label="Borrar Tratamiento"
+        tools:layout="@layout/fragment_confirmar_borrar_tto" />
+    <fragment
+        android:id="@+id/recompraFragment"
+        android:name="com.example.pastillero.fragments.RecompraFragment"
+        android:label="RecompraFragment" />
+</navigation>

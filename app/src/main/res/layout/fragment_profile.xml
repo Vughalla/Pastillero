@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".fragments.ProfileFragment">
+
+    <TextView
+        android:id="@+id/tto_edit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Perfil"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tto_edit_title">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Email:" />
+
+        <TextView
+            android:id="@+id/p_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nombre:" />
+
+        <TextView
+            android:id="@+id/p_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Apellido:" />
+
+        <TextView
+            android:id="@+id/p_lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="423dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nacimiento:" />
+
+        <TextView
+            android:id="@+id/p_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:layout_margin="16sp"
+        android:background="@drawable/button_bg"
+        android:text="Cerrar sesión"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
